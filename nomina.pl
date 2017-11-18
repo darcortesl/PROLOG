@@ -53,3 +53,7 @@ salario(X,S,R) :- contratode(X,Y),hpc(Y,H),categoria(X,C),cta(Y,C,Z),semestre(S,
 
 
 nominaprofes(S,T) :- findall(R,salario(_,S,R),G),calculo(G,T).
+
+20152020801 - Bryan Duran
+20152020050 - David Ricardo Cortes Leal
+20152020020 - Sebastian Sancez
